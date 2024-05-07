@@ -41,7 +41,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 const PrivacyAndTerms(),
                 CustomElevatedButton(
-                  onPressed: () => navigateToLoginPage,
+                  onPressed: () => navigateToLoginPage(context),
                   text: "AGREE & CONTINUE",
                   buttonWidth: MediaQuery.of(context).size.width - 100,
                 )
